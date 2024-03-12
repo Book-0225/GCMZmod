@@ -28,7 +28,18 @@ target
 
 # Build
 out
-build
+.build
+/build/tmp/*
+/build/natives/*
+/build/reobfJar/*
+/build/createSrgToMcp/*
+/build/createMcpToSrg/*
+/build/extractSrg/*
+/build/_compileJava_2/*
+/build/_postProcess_2/*
+/build/downloadMCMeta/*
+/build/downloadMcpConfig/*
+!gcmzmod-*.jar
 bin
 
 # Other
